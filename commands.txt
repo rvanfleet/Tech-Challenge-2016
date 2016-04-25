@@ -1,0 +1,16 @@
+Command to start REST API:
+curl http://localhost:5000
+
+Command to call base URL of REST API:
+curl http://localhost:5000
+
+Command for createOrder:
+curl -i -H "Content-Type: application/json" -X POST -d '{"partNumber":"123456"}' http://localhost:5000/createOrder
+
+To run REST API externally:
+Edit rest-api.py
+	Change app.run() to app.run(host='0.0.0.0')
+
+Get IP address with this command: ifconfig
+	Over wireless, the IP address will be "inet addr" under wlan0
+	My IP from the apartment was 192.168.0.8
