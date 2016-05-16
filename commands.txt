@@ -1,5 +1,5 @@
 Command to start REST API:
-curl http://localhost:5000
+python rest-api.py
 
 Command to call base URL of REST API:
 curl http://localhost:5000
