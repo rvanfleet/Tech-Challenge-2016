@@ -27,4 +27,4 @@ def createOrder():
         return jsonify({'returnObject': returnObject})
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host='0.0.0.0')
